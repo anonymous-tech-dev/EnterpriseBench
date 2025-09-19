@@ -5,21 +5,6 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
 
 <div class="nav-menu">
 <header class="header">
-      <div class="author-list-formal">
-        <div class="author-names">
-          Harsh Vishwakarma<sup>1,*</sup>,  
-          Ankush Agarwal<sup>1,*</sup>,  
-          Ojas Patil<sup>1</sup>,  
-          Chaitanya Devaguptapu<sup>1</sup>,  
-          Mahesh Chandran<sup>1</sup>
-        </div>
-        <div class="affiliations">
-          <sup>1</sup>Fujitsu Research India &nbsp;&nbsp;
-        </div>
-        <div class="author-footnote">
-          <sup>*</sup>Equal contribution &nbsp;&nbsp;
-        </div>
-      </div>
       <div class="links-section">
         <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button github"><span>📄</span>Code</a>
         <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button huggingface"><span>🤗</span>Data</a>
@@ -353,27 +338,6 @@ Evaluate agent performance on standard business operations:
 **EnterpriseBench** is developed by researchers focused on practical AI deployment in enterprise environments.
 
 *Author information and affiliations will be revealed upon publication acceptance.*
-
-## How to Cite {#citation}
-
-If you use EnterpriseBench in your research, please cite our work:
-
-```bibtex
-@inproceedings{enterprisebench2025,
-    title = "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterprise Environments",
-     author = "Vishwakarma, Harsh  and
-      Agarwal, Ankush  and
-      Patil, Ojas  and
-      Devaguptapu, Chaitanya and
-      Chandran, Mahesh"
-    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2025",
-    address = "Suzhou, China",
-    publisher = "Empirical Methods in Natural Language Processing",
-   
-}
-```
 
 ---
 <div class="highlight-box text-center">
