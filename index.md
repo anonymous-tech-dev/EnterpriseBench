@@ -3,11 +3,13 @@ layout: default
 title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterprise Environments"
 ---
 
+<div align="center"><strong>Anonymized Blog</strong></div>
+
 <div class="nav-menu">
 <header class="header">
       <div class="links-section">
-        <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button github"><span>📄</span>Code</a>
-        <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button huggingface"><span>🤗</span>Data</a>
+        <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button github"><span>📄</span><strong>Code</strong></a>
+        <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button huggingface"><span>🤗</span><strong>Data</strong></a>
         <!-- <a href="https://aclanthology.org/2025.acl-long.1152/" class="link-button arxiv"><span>📚</span> Paper </a> -->
       </div>
     </header>
@@ -337,7 +339,7 @@ Evaluate agent performance on standard business operations:
 
 **EnterpriseBench** is developed by researchers focused on practical AI deployment in enterprise environments.
 
-*Author information and affiliations will be revealed upon publication acceptance.*
+*Author information and affiliations are anonymized because of paper nomination for award.*
 
 ---
 <div class="highlight-box text-center">
