@@ -9,7 +9,7 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
         <div class="author-names">
           Harsh Vishwakarma<sup>1,*</sup>,  
           Ankush Agarwal<sup>1,*</sup>,  
-          Ojas F. Patil<sup>1</sup>,  
+          Ojas Patil<sup>1</sup>,  
           Chaitanya Devaguptapu<sup>1</sup>,  
           Mahesh Chandran<sup>1</sup>
         </div>
