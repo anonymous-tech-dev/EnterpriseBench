@@ -363,7 +363,7 @@ If you use EnterpriseBench in your research, please cite our work:
     title = "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterprise Environments",
      author = "Vishwakarma, Harsh  and
       Agarwal, Ankush  and
-      Ojas,F , Patil  and
+      Patil, Ojas  and
       Devaguptapu, Chaitanya and
       Chandran, Mahesh"
     booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
