@@ -10,6 +10,7 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
       <div class="links-section">
         <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button github"><span>📄</span><strong>Code</strong></a>
         <a href="https://anonymous.4open.science/r/EnterpriseBench-87B1/README.md" class="link-button huggingface"><span>🤗</span><strong>Data</strong></a>
+            <br>
         <!-- <a href="https://aclanthology.org/2025.acl-long.1152/" class="link-button arxiv"><span>📚</span> Paper </a> -->
       </div>
     </header>
@@ -25,6 +26,77 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
     <li><a href="#citation">Citation</a></li>
   </ul>
 </div>
+
+## Interactive Demos {#demos}
+
+EnterpriseBench provides three interactive Streamlit applications for hands-on agent evaluation:
+
+### 🎲 Task Generation Demo
+
+Experience automated task creation across different enterprise domains:
+
+<div class="card">
+  <h4>Task Generation Features:</h4>
+  <ul>
+    <li><strong>Department Selection:</strong> Choose from 6 major business domains</li>
+    <li><strong>Complexity Control:</strong> Adjust task difficulty and scope</li>
+    <li><strong>Real-time Generation:</strong> Create tasks dynamically based on parameters</li>
+    <li><strong>JSON Export:</strong> Download generated tasks for evaluation</li>
+  </ul>
+  
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nKsPsowAugA" 
+            title="EnterpriseBench Task Generation" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+  </div>
+  <p><strong>Demo Video:</strong> Watch how EnterpriseBench automatically generates Search-type tasks for the Engineering department using GitHub data sources.</p>
+</div>
+
+### 🔍 Search Evaluation Demo
+
+Test agent capabilities on information retrieval and analysis tasks:
+
+<div class="card">
+  <h4>Search Evaluation Features:</h4>
+  <ul>
+    <li><strong>Multi-Domain Queries:</strong> Search across HR, IT, Sales, and Engineering data</li>
+    <li><strong>Complex Relationships:</strong> Navigate interconnected business data</li>
+    <li><strong>Real-time Results:</strong> See agent performance in real-time</li>
+    <li><strong>Performance Analytics:</strong> Detailed metrics and failure analysis</li>
+  </ul>
+  
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/abiH1fzN3CE" 
+            title="Simulating the Enterprise: LLM Agents at Work" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+  </div>
+  <p><strong>Demo Video:</strong> See an agent formulate plans, select tools, and complete search tasks within the enterprise simulation.</p>
+</div>
+
+### 📝 CRUD Evaluation Demo
+
+Evaluate agent performance on standard business operations:
+
+<div class="card">
+  <h4>CRUD Evaluation Features:</h4>
+  <ul>
+    <li><strong>Business Operations:</strong> Create, read, update, and delete enterprise records</li>
+    <li><strong>Data Integrity:</strong> Ensure operations maintain business rules</li>
+    <li><strong>Multi-Step Tasks:</strong> Complex operations requiring multiple actions</li>
+    <li><strong>Error Handling:</strong> Test agent responses to edge cases and errors</li>
+  </ul>
+  
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TmHOhBErRCE" 
+            title="Simulating the Enterprise: LLM Agents Sending a Mail" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+  </div>
+  <p><strong>Demo Video:</strong> Watch an IT employee use an agent to draft and send an email regarding a ticket issue, demonstrating CRUD operations in action.</p>
+</div>
+
 
 ## Abstract {#abstract}
 
@@ -262,78 +334,6 @@ EnterpriseBench covers comprehensive business domains with authentic data and re
 </tbody>
 </table>
 </div>
-
-
-## Interactive Demos {#demos}
-
-EnterpriseBench provides three interactive Streamlit applications for hands-on agent evaluation:
-
-### 🎲 Task Generation Demo
-
-Experience automated task creation across different enterprise domains:
-
-<div class="card">
-  <h4>Task Generation Features:</h4>
-  <ul>
-    <li><strong>Department Selection:</strong> Choose from 6 major business domains</li>
-    <li><strong>Complexity Control:</strong> Adjust task difficulty and scope</li>
-    <li><strong>Real-time Generation:</strong> Create tasks dynamically based on parameters</li>
-    <li><strong>JSON Export:</strong> Download generated tasks for evaluation</li>
-  </ul>
-  
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/nKsPsowAugA" 
-            title="EnterpriseBench Task Generation" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-  </div>
-  <p><strong>Demo Video:</strong> Watch how EnterpriseBench automatically generates Search-type tasks for the Engineering department using GitHub data sources.</p>
-</div>
-
-### 🔍 Search Evaluation Demo
-
-Test agent capabilities on information retrieval and analysis tasks:
-
-<div class="card">
-  <h4>Search Evaluation Features:</h4>
-  <ul>
-    <li><strong>Multi-Domain Queries:</strong> Search across HR, IT, Sales, and Engineering data</li>
-    <li><strong>Complex Relationships:</strong> Navigate interconnected business data</li>
-    <li><strong>Real-time Results:</strong> See agent performance in real-time</li>
-    <li><strong>Performance Analytics:</strong> Detailed metrics and failure analysis</li>
-  </ul>
-  
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/abiH1fzN3CE" 
-            title="Simulating the Enterprise: LLM Agents at Work" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-  </div>
-  <p><strong>Demo Video:</strong> See an agent formulate plans, select tools, and complete search tasks within the enterprise simulation.</p>
-</div>
-
-### 📝 CRUD Evaluation Demo
-
-Evaluate agent performance on standard business operations:
-
-<div class="card">
-  <h4>CRUD Evaluation Features:</h4>
-  <ul>
-    <li><strong>Business Operations:</strong> Create, read, update, and delete enterprise records</li>
-    <li><strong>Data Integrity:</strong> Ensure operations maintain business rules</li>
-    <li><strong>Multi-Step Tasks:</strong> Complex operations requiring multiple actions</li>
-    <li><strong>Error Handling:</strong> Test agent responses to edge cases and errors</li>
-  </ul>
-  
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TmHOhBErRCE" 
-            title="Simulating the Enterprise: LLM Agents Sending a Mail" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-  </div>
-  <p><strong>Demo Video:</strong> Watch an IT employee use an agent to draft and send an email regarding a ticket issue, demonstrating CRUD operations in action.</p>
-</div>
-
 
 ## Authors {#authors}
 
