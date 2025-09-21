@@ -15,19 +15,19 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
       </div>
     </header>
   <ul>
+    <li><a href="#demos">Demo Videos</a></li>
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#framework">EnterpriseBench Framework</a></li>
     <li><a href="#domains">Supported Domains</a></li>
     <li><a href="#evaluation">Evaluation Methods</a></li>
-    <li><a href="#demos">Interactive Demos</a></li>
     <li><a href="#implementation">Implementation</a></li>
     <li><a href="#authors">Authors</a></li>
     <li><a href="#citation">Citation</a></li>
   </ul>
 </div>
 
-## Interactive Demos {#demos}
+## Demo Videos {#demos}
 
 EnterpriseBench provides three interactive Streamlit applications for hands-on agent evaluation:
 
