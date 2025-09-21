@@ -19,11 +19,11 @@ title: "Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterp
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#framework">EnterpriseBench Framework</a></li>
-    <li><a href="#domains">Domains Covered</a></li>
+    <li><a href="#domains">Domains Supported</a></li>
     <li><a href="#evaluation">Evaluation Methods</a></li>
     <li><a href="#implementation">Implementation</a></li>
     <li><a href="#authors">Authors</a></li>
-    <li><a href="#citation">Citation</a></li>
+<!--     <li><a href="#citation">Citation</a></li> -->
   </ul>
 </div>
 
